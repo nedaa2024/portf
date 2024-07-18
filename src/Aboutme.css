@@ -1,0 +1,27 @@
+.scroll-transition {
+  opacity: 0;
+  transform: translateY(50px);
+  animation: fade-in 0.8s ease-out forwards;
+}
+.all {
+  /* background: rgb(0, 1, 2); */
+  /* background: linear-gradient(
+    5deg,
+    rgba(0, 1, 2, 1) 8%,
+    rgba(4, 23, 50, 1) 40%,
+    rgba(4, 46, 86, 1) 67%,
+    rgba(17, 32, 49, 1) 87%
+  ); */
+}
+.inall {
+  background-color: rgb(255 255 255 / 10%);
+  margin: -35px 35px 0 35px !important;
+}
+@media (max-width: 600px) {
+  .text {
+    font-size: 21px !important;
+  }
+  .inall {
+    margin-top: -60px !important;
+  }
+}

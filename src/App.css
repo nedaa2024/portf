@@ -1,0 +1,30 @@
+body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  /* background-image: linear-gradient(to top, #cc208e 0%, #6713d2 100%); */
+  background-image: linear-gradient(
+    to top,
+    #fcc5e4 0%,
+    #fda34b 15%,
+    #ff7882 35%,
+    #c8699e 52%,
+    #7046aa 71%,
+    #0c1db8 87%,
+    #020f75 100%
+  );
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #c8699e 52%,
+    #b41ea0 67%,
+    #321575 100%
+  );
+
+  /* background-image: linear-gradient(
+    -225deg,
+    #ff057c 0%,
+    #8d0b93 50%,
+    #321575 100%
+  ); */
+}

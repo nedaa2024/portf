@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+  .typing-cursor::after {
+    content: "";
+    display: inline-block;
+    width: 0.15em;
+    height: 1em;
+    vertical-align: bottom;
+    margin-left: 0.15em;
+    background-color: currentColor;
+    animation: blink 0.75s step-end infinite;
+  }
+}

@@ -1,0 +1,25 @@
+@media (max-width: 600px) {
+  p {
+    font-size: 10px !important;
+  }
+  svg {
+    height: 18px !important;
+
+    width: 18px !important;
+  }
+  .btn {
+    height: 46px !important;
+    width: 120px !important;
+    margin: 10px 18px 0 18px !important
+    ;
+  }
+  input {
+    width: 70% !important;
+  }
+}
+.btn {
+  letter-spacing: 4px;
+  height: 46px;
+  width: 240px;
+  border: 1px solid white;
+}
